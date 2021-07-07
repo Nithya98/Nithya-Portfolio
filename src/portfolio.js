@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: 'Nithya Shanmugam Portfolio',
     type: 'website',
-    url: 'http://ashutoshhathidara.com/', //TODO:
+    url: 'https://nithyashanmugam.netlify.app/',
   },
 }
 
@@ -23,9 +23,8 @@ const greeting = {
   logo_name: 'Nithya Shanmugam',
   nickname: 'Frontend Developer',
   subTitle: `I'm a passionate self-taught developer seeking for a challenging environment to explore my skills to build an amazing stuffs in the most efficient way for the advancement of the organization and of my career.`,
-  // TODO:
   resumeLink:
-    'https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf',
+    'https://drive.google.com/file/d/1y1eHnA-IvXZTNCjk22GCd_9nzN57SBKc/view?usp=sharing',
   portfolio_repository: 'https://github.com/ashutosh1919/masterPortfolio',
 }
 
