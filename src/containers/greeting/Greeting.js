@@ -16,11 +16,11 @@ export default function Greeting(props) {
           <div className='greeting-text-div'>
             <div>
               <h1 className='greeting-text' style={{ color: theme.text }}>
-                Hi, I'm {greeting.title} <span className='wave'>🙋</span>
+                Hi, I'm {greeting.title} <span className='wave'>👩‍🎓</span>
               </h1>
               <h2 className='greeting-nickname' style={{ color: theme.text }}>
                 {greeting.nickname}{' '}
-                <span>- I like to make pretty things 😊</span>
+                <span className='nick'>- I like to make pretty things 😊</span>
               </h2>
 
               <p

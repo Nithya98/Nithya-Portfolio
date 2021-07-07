@@ -54,7 +54,7 @@ class Education extends Component {
           <Educations theme={this.props.theme} />
           <Certifications theme={this.props.theme} />
         </div>
-        <Footer theme={this.props.theme} />
+        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     )

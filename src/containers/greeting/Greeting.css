@@ -58,7 +58,7 @@
   max-width: 100%;
   height: auto;
 }
-span {
+.nick {
   font-style: italic;
   font-size: 1.2rem;
 }
@@ -78,8 +78,54 @@ span {
   .greeting-text-p {
     font-size: 20px;
   }
+  .nick {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
+  .greeting-text {
+    font-size: 30px;
+  }
+  .wave {
+    font-size: 1.2rem;
+  }
+  .greeting-nickname {
+    font-size: 20px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .nick {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 976px) {
+  .wave {
+    font-size: 1.2rem;
+  }
+  .greeting-nickname {
+    font-size: 20px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .nick {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+  .greeting-main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 781px) {
   .button-greeting-div {
     justify-content: space-around;
   }
@@ -99,11 +145,22 @@ span {
     text-align: center;
   }
   .greeting-main {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .portfolio-repo-btn-div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 643px) {
+  .greeting-main {
+    margin: 0 auto;
+    /* padding: 150px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

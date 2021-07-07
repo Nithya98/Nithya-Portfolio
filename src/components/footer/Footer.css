@@ -7,6 +7,11 @@
   color: rgb(180, 178, 178);
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
+  /* position: fixed; */
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 h6 {
   padding: 0 1rem;

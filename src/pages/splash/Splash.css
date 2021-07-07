@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 .logo_wrapper {
   height: 100vh;
   width: 100vw;
@@ -16,10 +16,10 @@
 }
 .logo__name {
   margin-top: 80px;
-  font-family: 'Agustina Regular';
+  font-family: 'Kaushan Script', cursive;
   font-size: 2rem;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -72,10 +72,21 @@ body {
 @media (max-width: 768px) {
   .logo__name {
     margin-top: 80px;
-    font-family: 'Agustina Regular';
+    font-family: 'Kaushan Script', cursive;
     font-size: 1.2rem;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1080px) {
+  .logo__name {
+    margin-top: 80px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 300;
     text-align: center;
   }
 }
