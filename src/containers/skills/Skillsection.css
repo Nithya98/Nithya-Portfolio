@@ -1,0 +1,12 @@
+.skills-heading {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.skills-text {
+  font-size: 1rem;
+  margin-left: 50px;
+  letter-spacing: 1px;
+}

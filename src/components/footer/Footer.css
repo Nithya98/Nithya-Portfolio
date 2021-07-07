@@ -1,0 +1,13 @@
+.footer-div {
+  /* margin: 0 1rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(68, 6, 68);
+  color: rgb(180, 178, 178);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+h6 {
+  padding: 0 1rem;
+}

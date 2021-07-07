@@ -1,0 +1,27 @@
+.educations-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: 'Google Sans Regular';
+  text-align: center;
+}
+.underline {
+  width: 7rem;
+  height: 0.2rem;
+  background: #3c094f;
+  /* background: var(--clr-primary-5); */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1380px) {
+  .educations-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .educations-header {
+    font-size: 30px;
+  }
+}
