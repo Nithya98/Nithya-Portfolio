@@ -56,7 +56,12 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className='greeting-image-div'>
-            <LottieAnimation lotti={HeaderImg} height={400} width={600} />
+            <LottieAnimation
+              className='lottie'
+              lotti={HeaderImg}
+              height={400}
+              width={600}
+            />
           </div>
         </div>
       </div>

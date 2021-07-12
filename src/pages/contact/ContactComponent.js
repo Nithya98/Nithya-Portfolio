@@ -82,14 +82,24 @@ class Contact extends Component {
                 </div>
               </div>
               <div className='blog-heading-img-div'>
-                <LottieAnimation lotti={HeaderImg} height={500} width={700} />
+                <LottieAnimation
+                  className='lottie'
+                  lotti={HeaderImg}
+                  height={500}
+                  width={700}
+                />
               </div>
             </div>
           </Fade>
           <Fade bottom duration={1000} distance='40px'>
             <div className='address-heading-div'>
               <div className='contact-heading-img-div'>
-                <LottieAnimation lotti={ContactImg} height={400} width={600} />
+                <LottieAnimation
+                  className='lottie'
+                  lotti={ContactImg}
+                  height={400}
+                  width={600}
+                />
               </div>
               <div className='address-heading-text-div'>
                 <h1

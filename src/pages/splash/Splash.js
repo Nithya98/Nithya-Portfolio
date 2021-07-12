@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Splash.css'
 import { Redirect } from 'react-router-dom'
+import { Fade } from 'react-reveal'
 
 function AnimatedSplash(props) {
   const logo = '<Nithya Shanmugam />'

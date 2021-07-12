@@ -163,4 +163,8 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .lottie {
+    height: 300;
+    width: 300;
+  }
 }

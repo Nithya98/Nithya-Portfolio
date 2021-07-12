@@ -11,10 +11,31 @@ import './Skillsection.css'
 
 function GetSkillSvg(props) {
   if (props.fileName === 'BrowserTech')
-    return <LottieAnimation lotti={BrowserTech} height={300} width={350} />
+    return (
+      <LottieAnimation
+        className='lottie'
+        lotti={BrowserTech}
+        height={300}
+        width={350}
+      />
+    )
   else if (props.fileName === 'Libraries')
-    return <LottieAnimation lotti={Libraries} height={300} width={400} />
-  return <LottieAnimation lotti={BrowserTech} height={600} width={500} />
+    return (
+      <LottieAnimation
+        className='lottie'
+        lotti={Libraries}
+        height={300}
+        width={400}
+      />
+    )
+  return (
+    <LottieAnimation
+      className='lottie'
+      lotti={BrowserTech}
+      height={600}
+      width={500}
+    />
+  )
 }
 
 class SkillSection extends Component {
