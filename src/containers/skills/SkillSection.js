@@ -78,6 +78,7 @@ class SkillSection extends Component {
                     })}
                   </div>
                 </Fade>
+                <div className="space"/>
               </div>
             </div>
           )

@@ -10,6 +10,9 @@
   margin-left: 50px;
   letter-spacing: 1px;
 }
+.space{
+  margin-bottom: 250px;
+}
 
 @media (max-width: 643px) {
   .lottie {
