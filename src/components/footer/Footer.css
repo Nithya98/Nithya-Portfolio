@@ -5,8 +5,8 @@
   justify-content: space-between;
   background-color: rgb(68, 6, 68);
   color: rgb(180, 178, 178);
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+  /* border-top-right-radius: 50px;
+  border-top-left-radius: 50px; */
   /* position: fixed; */
   bottom: 0px;
   left: 0px;
