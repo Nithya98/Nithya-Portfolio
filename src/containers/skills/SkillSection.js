@@ -1,60 +1,60 @@
-import React, { Component } from 'react'
-import './Skills.css'
-import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill'
-import { skills } from '../../portfolio'
-import { Fade } from 'react-reveal'
-import LottieAnimation from '../../Lottie'
-import BrowserTech from '../../Animations/browserTech.json'
-import Libraries from '../../Animations/libraries.json'
-import Tools from '../../Animations/tools.json'
-import './Skillsection.css'
+import React, { Component } from "react";
+import "./Skills.css";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import { skills } from "../../portfolio";
+import { Fade } from "react-reveal";
+import LottieAnimation from "../../Lottie";
+import BrowserTech from "../../Animations/browserTech.json";
+import Libraries from "../../Animations/libraries.json";
+import Tools from "../../Animations/tools.json";
+import "./Skillsection.css";
 
 function GetSkillSvg(props) {
-  if (props.fileName === 'BrowserTech')
+  if (props.fileName === "BrowserTech")
     return (
       <LottieAnimation
-        className='lottie'
+        className="lottie"
         lotti={BrowserTech}
         height={300}
         width={350}
       />
-    )
-  else if (props.fileName === 'Libraries')
+    );
+  else if (props.fileName === "Libraries")
     return (
       <LottieAnimation
-        className='lottie'
+        className="lottie"
         lotti={Libraries}
         height={300}
-        width={400}
+        width={350}
       />
-    )
+    );
   return (
     <LottieAnimation
-      className='lottie'
+      className="lottie"
       lotti={BrowserTech}
       height={600}
-      width={500}
+      width={350}
     />
-  )
+  );
 }
 
 class SkillSection extends Component {
   render() {
-    const theme = this.props.theme
+    const theme = this.props.theme;
     return (
       <div>
         {skills.data.map((skill) => {
           return (
-            <div className='skills-main-div'>
+            <div className="skills-main-div">
               <Fade left duration={2000}>
-                <div className='skills-image-div'>
+                <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} />
                 </div>
               </Fade>
 
-              <div className='skills-text-div'>
+              <div className="skills-text-div">
                 <Fade right duration={1000}>
-                  <h1 className='skills-heading' style={{ color: theme.text }}>
+                  <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
@@ -66,26 +66,26 @@ class SkillSection extends Component {
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
-                          className='subTitle skills-text'
+                          className="subTitle skills-text"
                           style={{
                             color: theme.secondaryText,
-                            lineHeight: '1.6rem',
+                            lineHeight: "1.6rem",
                           }}
                         >
                           {skillSentence}
                         </p>
-                      )
+                      );
                     })}
                   </div>
                 </Fade>
-                <div className="space"/>
+                <div className="space" />
               </div>
             </div>
-          )
+          );
         })}
       </div>
-    )
+    );
   }
 }
 
-export default SkillSection
+export default SkillSection;
