@@ -24,8 +24,8 @@ const greeting = {
   nickname: "Frontend Developer",
   subTitle: `I'm a passionate Front-end developer developer seeking for a challenging environment to explore my skills to build an amazing stuffs in the most efficient way for the advancement of the organization and of my career.`,
   resumeLink:
-    /* 'https://drive.google.com/file/d/1y1eHnA-IvXZTNCjk22GCd_9nzN57SBKc/view?usp=sharing'*/
-    "https://github.com/Nithya98/Nithya-Portfolio",
+    'https://drive.google.com/file/d/1usSIR3-HX5j3_n7WMmkIcxUtlL_bKnD_/view?usp=share_link',
+//     "https://github.com/Nithya98/Nithya-Portfolio",
   portfolio_repository: "https://github.com/Nithya98/Nithya-Portfolio",
 };
 
