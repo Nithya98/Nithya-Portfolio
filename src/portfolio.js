@@ -24,8 +24,8 @@ const greeting = {
   nickname: "Frontend Developer",
   subTitle: `I'm a passionate Front-end developer developer seeking for a challenging environment to explore my skills to build an amazing stuffs in the most efficient way for the advancement of the organization and of my career.`,
   resumeLink:
-    'https://drive.google.com/file/d/1usSIR3-HX5j3_n7WMmkIcxUtlL_bKnD_/view?usp=share_link',
-//     "https://github.com/Nithya98/Nithya-Portfolio",
+    "https://drive.google.com/file/d/1sRWsXakvCLXFFg4RyBIT7qh44qx5Qpvk/view?usp=sharing",
+  //     "https://github.com/Nithya98/Nithya-Portfolio",
   portfolio_repository: "https://github.com/Nithya98/Nithya-Portfolio",
 };
 
@@ -65,9 +65,9 @@ const skills = {
         "A Passionate and crazy FRONTEND DEVELOPER who wants to explore every Tech stack",
       fileName: "Skills",
       skills: [
-        "⚡ Making UI fully responsive across all browsers & devices using HTML, CSS/SASS, Flexbox & Bootstrap and Javascript",
-        "⚡ Experience building on reusable components for future use and optimized web pages using react.js",
-        "⚡ Employed variety of styles using styled components to create a user friendly websites ",
+        "⚡ Experience on building scalable and resuable react components and worked on state management using Context API and Redux",
+        "⚡ Hands-on experience in integrating Google Analytics to monitor and analyze user interactions within web applications. This includes implementing tracking for visible events, click events, and scroll events, providing valuable insights into user behavior and engagement. I am proficient in setting up and configuring Google Analytics to extract meaningful data for optimizing user experience and overall application performance.",
+        "⚡ Applied variety of styles using Sass, styled components and tailwind to create a responsive and user friendly websites ",
         `⚡ Moreover, React is fun 💃🏼 and I've  enjoyed a lot throughout the learning process as well as in the working perspective.`,
       ],
       softwareSkills: [

@@ -100,9 +100,15 @@
 }
 
 .listitems {
-  display: flex;
-  align-content: flex-end;
-  justify-content: space-evenly;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1200px) {
+  .listitems {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-evenly;
+  }
 }
 
 .listicons {
